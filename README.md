@@ -20,7 +20,11 @@ Vector embeddings using serverless NoSQL Astra DB from DataStax.
 ```.\env\Scripts\activate```
 
 3. Install packages 
-pip install cassio datasets langchain openai tiktoken
+```pip install cassio datasets langchain openai tiktoken```
+
+4. Run your script
+
+
 
 
 

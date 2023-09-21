@@ -11,10 +11,11 @@ from cassandra.auth import PlainTextAuthProvider
 # Cassandra), and OpenAI (to generate embeddings)
 
 # Constants
-ASTRA_DB_SECURE_BUNDLE_PATH = "secure-connect-vector.zip"
-ASTRA_DB_TOKEN_JSON_PATH = "YOUR-TOKEN-JSON-FILE"
-ASTRA_DB_KEYSPACE = "YOUR-KEYSPACE"
-OPENAI_API_KEY = "YOUR-API-KEY"
+ASTRA_DB_SECURE_BUNDLE_PATH = "YUR_ASTRADB_SECURE_BUNDLE_PATH"
+ASTRA_DB_TOKEN_JSON_PATH = "YOUR_ASTRADB_TOKEN_JSON_PATH"
+ASTRA_DB_KEYSPACE = "YOUR_ASTRADB_KEYSPACE"
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
+
 
 # Load Astra DB application token from a JSON file
 with open(ASTRA_DB_TOKEN_JSON_PATH) as f:
